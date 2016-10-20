@@ -14,7 +14,7 @@ public class PolynomialDivsion
       System.out.println("Enter the coefficients of the polynomial starting with the coefficient next to the largest exponent");
       for (int a = coeff1.length - 1; a >= 0; a--)
       {
-         System.out.print("");
+         System.out.print(poly1);
          coeff1[a] = Keyboard.readInt();
 
          if (a > 1)
@@ -26,7 +26,7 @@ public class PolynomialDivsion
          if (a == 0)
             poly1 = poly1 + coeff1[a];
       }
-               
+                  
       //Polynomial 2
       System.out.println("What is the largest exponent for the second polynomial");
       int expon2 = Keyboard.readInt();
@@ -36,7 +36,7 @@ public class PolynomialDivsion
       System.out.println("Enter the coefficients of the polynomial starting with the coefficient next to the largest exponent");
       for (int a = coeff2.length - 1; a >= 0; a--)
       {
-         System.out.print("");
+         System.out.print(poly2);
          coeff2[a] = Keyboard.readInt();
 
          if (a > 1)
@@ -49,8 +49,8 @@ public class PolynomialDivsion
             poly2 = poly2 + coeff2[a];    
          
       }
-   System.out.println(poly1);
-   System.out.println(poly2);
+      System.out.println("Equation 1: " + poly1);
+      System.out.println("Equation 2: " + poly2);
 
    }
  
