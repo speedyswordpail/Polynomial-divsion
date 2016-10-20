@@ -54,7 +54,7 @@ public class PolynomialDivsion
 
    }
  
- 
+ /*
   public List makeList(String poly)
   {
   ArrayList<String> comps = new ArrayList<String>();
@@ -83,4 +83,5 @@ public class PolynomialDivsion
     }
     return comps;
   }
+  */
 }
