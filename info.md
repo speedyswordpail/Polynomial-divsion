@@ -10,7 +10,7 @@ public class polynomialstart
       int[] coeff1 = new int[expon1 + 1];
       String poly1 = "";
   
-      System.out.println("Enter the coefficients of the polynomial starting with the coefficient next to the largest exponent");
+      System.out.println("Enter the coefficients of the first polynomial from left to right");
       for (int a = coeff1.length - 1; a >= 0; a--)
       {
          System.out.print(poly1);
@@ -32,7 +32,7 @@ public class polynomialstart
       int[] coeff2 = new int[expon2 + 1];
       String poly2 = "";
       
-      System.out.println("Enter the coefficients of the polynomial starting with the coefficient next to the largest exponent");
+      System.out.println("Enter the coefficients of the second polynomial from left to right");
       for (int a = coeff2.length - 1; a >= 0; a--)
       {
          System.out.print(poly2);
@@ -50,6 +50,7 @@ public class polynomialstart
       }
       System.out.println("Equation 1: " + poly1);
       System.out.println("Equation 2: " + poly2);
+
 
    }
 }
