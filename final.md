@@ -54,34 +54,20 @@ public class PolynomialDivsion
 
    }
  
- /*
+ 
   public List makeList(String poly)
   {
   ArrayList<String> comps = new ArrayList<String>();
-  String temp = "";
-  String theChar = "";
+  //String temp = "";
+  //String theChar = "";
   int place = 0;
-    for (int k = 0; k < poly.length(); k++)
-    {
-    theChar = poly.substring(k,k+1);
-      while(poly.length() > 0)
-      {
-        if(theChar.equals("+") || theChar.equals("-"))
-        {
-          poly = poly.substring(0,place);
-          comps.add(temp);
-          temp = "";
-          
-        }
-        else
-        {
-          place ++;
-          temp += theChar;
-          
-        }
-      }
-    }
-    return comps;
+  while(poly.length() > 0)
+  {
+    place = poly.indexOf(" ")
+    comps.add(poly.substring(0,place));
+    poly = poly.substring(place);
   }
-  */
-}
+  return comps;
+  }
+ }
+ }
